@@ -26,6 +26,13 @@ For more information on using desktop client, see the [**Using the Synchronizati
 
 ### For Android Users
 
+Navigate to the [Google Play Store](https://play.google.com/store/apps/details?id=com.owncloud.android) and download the ownCloud app.
+
+Open the app once it is installed. Enter your credentials into the login screen:
+
+![This information is available from your admin](img/androidlogin.png)
+
+
 For more information on using your Android app, see the [**Using the Android App**](https://doc.owncloud.com/android/) topic in the Mobile App for Android document.
 
 ### For iOS Users

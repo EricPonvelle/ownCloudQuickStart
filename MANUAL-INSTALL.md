@@ -77,13 +77,13 @@ Before downloading the software, it is advised to change the command line direct
 
 Go to the [**ownCloud download page**](https://owncloud.com/download-server/) and download the latest `.tar` file and the desired security hash file like `md5` as well as the `asc` PGP signature file. 
 
-Once downloaded, run the md5sum command using the downloaded `md5` file with the `owncloud.tar.bz2` file. In the following commands, change the `x.y.z` value to match the value of the downloaded files which are in a `yyyymmdd` format.
+Once downloaded, run the md5sum command using the downloaded `md5` file with the `owncloud.tar.bz2` file. In the following commands, change the `yyyymmdd` value to match the year, month, and date of the downloaded files.
 
-    sudo md5sum -c owncloud-x.y.z.tar.bz2.md5 < owncloud-x.y.z.tar.bz2
+    sudo md5sum -c owncloud-yyyymmdd.tar.bz2.md5 < owncloud-yyyymmdd.tar.bz2
 
 If the sha256 has file was downloaded instead, use this command to verify the file.
 
-    sudo sha256sum -c owncloud-x.y.z.tar.bz2.sha256 < owncloud-x.y.z.tar.bz2
+    sudo sha256sum -c owncloud-yyyymmdd.tar.bz2.sha256 < owncloud-yyyymmdd.tar.bz2
 
 Next, verify the PGP signature with this command:
 
