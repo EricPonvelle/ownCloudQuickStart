@@ -39,10 +39,8 @@ To configure on Debian and related distributions, simply create a owncloud.conf 
      touch /etc/apache/sites-available/owncloud.conf
 
 ----
-----
 **NOTE:** This command assumes that the needed hierarchy is already created.
 
-----
 ----
 
 In this configuration file, add the following content:

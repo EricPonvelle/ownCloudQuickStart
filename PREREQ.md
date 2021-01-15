@@ -3,10 +3,8 @@
 The downloaded archive of the ownCloud server will contain all of the necessary dependencies for installation and use. This document will guide users through the process for installing the PHP extensions that ownCloud requires.
 
 ----
-----
 **Note** This guide focuses on the required extensions for ownCloud. For additional but recommended extensions and prerequisites, see the [Recommended Prerequisites](https://doc.owncloud.org/server/10.6/admin_manual/installation/manual_installation/manual_installation_prerequisites.html#recommended-prerequisites) section of the Prerequisites for Manual Installation on Linux document.
 
-----
 ----
 
 This Quick Start Guide assumes users are comfortable using a Linux command line. With Linux, the following command can be used to detect if any of the extensions are already installed. Replace `<module_name>` with the extension name to check.
