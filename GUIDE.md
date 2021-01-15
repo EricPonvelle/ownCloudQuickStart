@@ -12,15 +12,19 @@ As an Administrator user, from the 'Users' page, there will be a table showing a
 
 When completed as desired, select the Create button to add the user. Admins may select additional fields to show on the table of users. For information on these configurations, see the [**User Configuration**](https://doc.owncloud.org/server/10.6/admin_manual/configuration/user/user_configuration.html#creating-a-new-user) section of the Admin Manual.
 
-## Admin Task: Permissions for Users and Groups
-
-
-
 ## User Task: Connecting to ownCloud
 
 ownCloud allows users to connect via a Desktop client, an Android app, or an iOS app.
 
 ### For Desktop Users
+
+Download the desktop application from [**the ownCloud downloads page**](https://owncloud.com/download/#desktop-clients).
+
+Once downloaded, open the application and you will be prompted to enter your ownCloud server URL.
+
+![Ubuntu ownCloud app](img/linuxaddserver.png)
+
+Next, enter your credentials to log into the server.
 
 For more information on using desktop client, see the [**Using the Synchronization Client**](https://doc.owncloud.com/desktop/navigating.html) topic in the Desktop Client manual.
 
@@ -32,12 +36,21 @@ Open the app once it is installed. Enter your credentials into the login screen:
 
 ![This information is available from your admin](img/androidlogin.png)
 
+Once logged in, if the ownCloud server is using self-signed SSL certificates, select 'Yes' when asked if you wish to trust this unverified certificate.
 
-For more information on using your Android app, see the [**Using the Android App**](https://doc.owncloud.com/android/) topic in the Mobile App for Android document.
+![For users with self-signed SSLs](img/androidtrust.png)
+
+The app is ready for use. For more information on using your Android app, see the [**Using the Android App**](https://doc.owncloud.com/android/) topic in the Mobile App for Android document.
 
 ### For iOS Users
 
-For more information on gaining access to the ownCloud server with the iOS app, see the [**Managing User Accounts**](https://doc.owncloud.com/ios-app/ios_accounts.html) topic in the Mobile App for Android document.
+The iOS ownCloud application is available in [the iOS store](https://apps.apple.com/app/id1359583808?ls=1&utm_campaign=Mobile%20App%20Downloads%20via%20QR%20code%20(iOS)&utm_medium=qr&utm_source=owncloud.com).
+
+Once installed, enter your credentials in the login screen.
+
+![iOSLogin](img/ioslogin.png)
+
+Once the user account is added and logged in, you are ready to use the ownCloud iOS app. For more information on gaining access to the ownCloud server with the iOS app, see the [**Managing User Accounts**](https://doc.owncloud.com/ios-app/ios_accounts.html) topic in the Mobile App for Android document.
 
 ## User Task: Basic User Actions
 When using the ownCloud Web interface, users willl see the Files page. This is where the user may upload new files, remove files, and share any files from the respository. Users may also make changes based on how their permissions are set by the administrator.
