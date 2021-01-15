@@ -13,7 +13,7 @@ This Quick Start Guide assumes users are comfortable using a Linux command line.
 
 ## List of Required Extensions
 
-The following is a list of the required PHP extensions. The installed PHP version should be at least 7.2, with 7.3 and 7.4 also supported.
+The following is a list of the required PHP extensions. The installed PHP version should be version 7.2, 7.3, or 7.4.
 ### PHP Extensions
 ----
 

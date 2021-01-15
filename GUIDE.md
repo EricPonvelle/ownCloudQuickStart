@@ -18,6 +18,25 @@ When completed as desired, select the Create button to add the user. Admins may 
 
 ## User Task: Connecting to ownCloud
 
+ownCloud allows users to connect via a Desktop client, an Android app, or an iOS app.
+
+### For Desktop Users
+
+For more information on using desktop client, see the [**Using the Synchronization Client**](https://doc.owncloud.com/desktop/navigating.html) topic in the Desktop Client manual.
+
+### For Android Users
+
+For more information on using your Android app, see the [**Using the Android App**](https://doc.owncloud.com/android/) topic in the Mobile App for Android document.
+
+### For iOS Users
+
+For more information on gaining access to the ownCloud server with the iOS app, see the [**Managing User Accounts**](https://doc.owncloud.com/ios-app/ios_accounts.html) topic in the Mobile App for Android document.
+
 ## User Task: Basic User Actions
+When using the ownCloud Web interface, users willl see the Files page. This is where the user may upload new files, remove files, and share any files from the respository. Users may also make changes based on how their permissions are set by the administrator.
+
+![The Create button allows users to create a text file or a folder or upload a file](img/createoptions.png)
+
+For more information on using the Web Application, see the [**Navigating the Main User Interface**](https://doc.owncloud.com/server/10.6/user_manual/files/webgui/navigating.html) section of the User Manual.
 
 [Back to Home](index.md).

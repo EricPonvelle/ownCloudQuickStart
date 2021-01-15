@@ -17,6 +17,7 @@ Further considerations such as having multiple concurrent PHP versions as well a
 While a few options are supported for the choice of databases, the recommended option is MariaDB. For other database install options, see the [**Manual Installation Databases**](https://doc.owncloud.org/server/10.6/admin_manual/installation/manual_installation/manual_installation_db.html) guide.
 
 For Ubuntu 18.04 LTS, add the MariaDB repository with the commands:
+
     sudo apt-get install software-properties-common
 
     sudo apt-key adv --fetch-keys 'https://mariadb.org/mariadb_release_signing_key.asc'
