@@ -11,7 +11,7 @@ Using an Ubuntu 18.04 LTS Server, ensure that the Apache Web Server and PHP are 
 
 Further considerations such as having multiple concurrent PHP versions as well as best practices can be found on the [**Server Preparation for Ubuntu 18.04**](https://doc.owncloud.org/server/10.6/admin_manual/installation/manual_installation/server_prep_ubuntu_18.04.html) document of the ownCloud Documentation.
 
-## 2 - Install MariaDB
+## 2 - Install MySQL/MariaDB
 ----
 
 While a few options are supported for the choice of databases, the recommended option is MariaDB. For other database install options, see the [**Manual Installation Databases**](https://doc.owncloud.org/server/10.6/admin_manual/installation/manual_installation/manual_installation_db.html) guide.
@@ -46,6 +46,11 @@ The following is an example of a configured MySQL/MariaDB database with all poss
             "adminpass"     => "root-password",
             "directory"     => "/www/htdocs/owncloud/data",
 ];
+
+----
+**IMPORTANT** The port of localhose, which is set on the `dbhost` property, must be available for traffic. In this example, `8080` is used, and this port is unblocked and able to send and receive traffic.
+
+----
 
 
 ## 3 - Configure the Apache Web Server

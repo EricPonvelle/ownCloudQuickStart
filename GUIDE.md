@@ -26,7 +26,13 @@ Once downloaded, open the application and you will be prompted to enter your own
 
 Next, enter your credentials to log into the server.
 
-For more information on using desktop client, see the [**Using the Synchronization Client**](https://doc.owncloud.com/desktop/navigating.html) topic in the Desktop Client manual.
+![Ubuntu Login Information](img/ubuntulogin.png)
+
+After the correct credentials are entered, you may choose to connect files to ownCloud from a local drive, or simply skip this step and connect to the server.
+
+![Choose what, if any, to sync](img/synclocal.png)
+
+Once approved, you are ready to use the ownCloud desktop client. For more information on using desktop client, see the [**Using the Synchronization Client**](https://doc.owncloud.com/desktop/navigating.html) topic in the Desktop Client manual.
 
 ### For Android Users
 
