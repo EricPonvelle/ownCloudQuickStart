@@ -1,0 +1,1 @@
+This repository demonstrates a Quick Start Guide for Admins and Users of the ownCloud platform.
