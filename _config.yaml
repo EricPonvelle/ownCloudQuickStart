@@ -1,0 +1,12 @@
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - ALT-INSTALL.md
+  - GUIDE.md
+  - MANUAL-INSTALL.md
+  - OVERVIEW.md
+  - PREREQ.md
+  - SUPPORT.md
