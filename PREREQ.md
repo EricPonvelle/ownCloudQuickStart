@@ -51,3 +51,5 @@ The following is a list of the required PHP extensions. The installed PHP versio
 * **imap**: For IMAP integration
 * **ldap**: For LDAP integration
 * **smbclient**: For SMB/CIFS integration
+
+[Back to Home](index.md).

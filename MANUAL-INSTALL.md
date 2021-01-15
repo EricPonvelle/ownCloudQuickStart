@@ -120,3 +120,5 @@ Continuing with the command line process, the following command will add all the
        --admin-pass "password"
 
 With this step, ownCloud is installed and configured. There are aditional recommended configurations that users may wish to configure. For inforamtion on these items, see the [**Post Installation Configuration**](https://doc.owncloud.org/server/10.6/admin_manual/installation/manual_installation/manual_installation.html#post-installation-configuration) section of the Detailed Installation Guide document.
+
+[Back to Home](index.md).

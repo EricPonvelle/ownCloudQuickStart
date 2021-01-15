@@ -19,3 +19,5 @@ When completed as desired, select the Create button to add the user. Admins may 
 ## User Task: Connecting to ownCloud
 
 ## User Task: Basic User Actions
+
+[Back to Home](index.md).

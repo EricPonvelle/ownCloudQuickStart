@@ -12,8 +12,8 @@ For a guide of all the configurations required for the Docker method, see the [*
 With many package managers, ownCloud can be installed by using the `owncloud-files` package.
 
 ----
-----
 **NOTE** This only installs the bare-minimum ownCloud files. Users will need to configure Apache, their databases, and fulfill the PHP dependencies. For more information on what is required for ownCloud, see the Prerequisites topic. For the commands for different package managers, like Yum, APT, and Zypper, see the [**Linux Package Manager**](https://doc.owncloud.org/server/10.6/admin_manual/installation/linux_packetmanager_install.html) topic.
 
 ----
-----
+
+[Back to Home](index.md).
