@@ -24,6 +24,6 @@ From the ownCloud client, press the `F12`, `Ctrl+L`, or `Cmd+L` buttons, dependi
 
 ![Log Output Dialog](img/logoutput.png)
 
-On this dialog, select the 'ENable loging to temporary folder' checkbox. Now, to attain log files for the desktop client, click the 'Open Folder' to navigate to the directory with the log files.
+On this dialog, select the 'Enable logging to temporary folder' checkbox. Now, to attain log files for the desktop client, click the 'Open Folder' to navigate to the directory with the log files.
 
 [Back to Home](index.md).
