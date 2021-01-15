@@ -48,7 +48,7 @@ The following is an example of a configured MySQL/MariaDB database with all poss
 ];
 
 ----
-**IMPORTANT** The port of localhose, which is set on the `dbhost` property, must be available for traffic. In this example, `8080` is used, and this port is unblocked and able to send and receive traffic.
+**IMPORTANT** The port of localhost, which is set on the `dbhost` property, must be available for traffic. In this example, `8080` is used, and this port is unblocked and able to send and receive traffic.
 
 ----
 

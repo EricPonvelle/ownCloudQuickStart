@@ -16,4 +16,14 @@ In the database configuration file, change `BINLOG_FORMAT = STATEMENT` to either
 
 For more infromation on setting the `TRANSACTION_READ_COMMITTED` transaction isolation level, see the [MySQL manual](https://dev.mysql.com/doc/refman/5.7/en/set-transaction.html).
 
+## Log Files in the Desktop Application
+
+Without a log file, any issues that arise will be difficult to troubleshoot. One solution to gaining log files is to create a temporary directory where log files are stored.
+
+From the ownCloud client, press the `F12`, `Ctrl+L`, or `Cmd+L` buttons, depending on your operating system. The Log Output dialog will display.
+
+![Log Output Dialog](img/logoutput.png)
+
+On this dialog, select the 'ENable loging to temporary folder' checkbox. Now, to attain log files for the desktop client, click the 'Open Folder' to navigate to the directory with the log files.
+
 [Back to Home](index.md).

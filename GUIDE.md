@@ -6,6 +6,8 @@ Admins will be in charge of configuring the ownCloud server and creating users w
 
 As an Administrator user, from the 'Users' page, there will be a table showing all created users. At the top of this table there are three fields with a 'Create' button.
 
+![Options to Create a User](img/createauser.png)
+
 1. **Username** - This value will be the user name that your created user will need to login. The username may contain letters (a-z, A-Z), numbers (0-9), dashes (-), underscores (_), periods (.), and at signs (@).
 1. **E-Mail** - The user's email where their generated first-use password will be sent.
 1. **Groups** - This dropdown field allows the admin to move users to created groups. By default, users are unassigned. 
@@ -56,7 +58,7 @@ Once installed, enter your credentials in the login screen.
 
 ![iOSLogin](img/ioslogin.png)
 
-Once the user account is added and logged in, you are ready to use the ownCloud iOS app. For more information on gaining access to the ownCloud server with the iOS app, see the [**Managing User Accounts**](https://doc.owncloud.com/ios-app/ios_accounts.html) topic in the Mobile App for Android document.
+Once the user account is added and logged in, you are ready to use the ownCloud iOS app. For more information on gaining access to the ownCloud server with the iOS app, see the [**Managing User Accounts**](https://doc.owncloud.com/ios-app/ios_accounts.html) topic in the Mobile App for iOS document.
 
 ## User Task: Basic User Actions
 When using the ownCloud Web interface, users willl see the Files page. This is where the user may upload new files, remove files, and share any files from the respository. Users may also make changes based on how their permissions are set by the administrator.
