@@ -14,7 +14,7 @@ Binary logging records all the changes to the database and how long each change 
 
 In the database configuration file, change `BINLOG_FORMAT = STATEMENT` to either `BINLOG_FORMAT = MIXED` or `BINLOG_FORMAT = ROW`. These values may reside in the database startup script.
 
-For more infromation on setting the `TRANSACTION_READ_COMMITTED` transaction isolation level, see the [MySQL manual](https://dev.mysql.com/doc/refman/5.7/en/set-transaction.html).
+For more information on setting the `TRANSACTION_READ_COMMITTED` transaction isolation level, see the [MySQL manual](https://dev.mysql.com/doc/refman/5.7/en/set-transaction.html).
 
 ## Log Files in the Desktop Application
 
